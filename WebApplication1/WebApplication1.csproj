@@ -143,6 +143,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MainUIController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -151,6 +152,10 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\TeacherUI.css" />
+    <Content Include="Content\StudentUI.css" />
+    <Content Include="Content\themes\background.jpg" />
+    <Content Include="Content\themes\portrait.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -185,6 +190,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\MainUI\TeacherUI1.cshtml" />
+    <Content Include="Views\MainUI\StudentUI.cshtml" />
+    <Content Include="Views\MainUI\TeacherUI2.cshtml" />
+    <Content Include="Views\MainUI\ModifyStuInfo.cshtml" />
+    <Content Include="Views\MainUI\ModifyTeaInfo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
