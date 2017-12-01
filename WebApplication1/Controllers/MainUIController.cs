@@ -31,7 +31,10 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-
+        public JsonResult SendData()
+        {
+            return Json( new {username="邱明",teacherid="2432012522" });
+        }
 
     }
 }

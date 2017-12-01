@@ -11,6 +11,9 @@
     <link href="~/Content/TeacherUI.css" rel="stylesheet" type="text/css" />
     <!-- Bootstrap -->
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script type="text/javascript" src="~/Scripts/teacherInfo.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
 </head>
 
 <body>
@@ -18,8 +21,8 @@
         <!-- 背景图的div -->
         <img style="position:absolute;margin-left: 5%;margin-top: 9%" src="~/Content/themes/portrait.png" width=28% height=50% />
         <img src="~/Content/themes/background.jpg" width=100% height=100% />
-        <div class="FONT4" style="position:absolute; z-index:2; top:15px">姓名：邱明</div>
-        <div class="FONT4" style="position:absolute; z-index:2; top:100px">学号：243201522xxxxx</div>
+        <div class="FONT4" style="position:absolute; z-index:2; top:15px" id="name"></div>
+        <div class="FONT4" style="position:absolute; z-index:2; top:100px"id="id" ></div>
     </div>
 
     <div class="box3">
@@ -36,7 +39,6 @@
         <div class="box3">
             <p class="FONT1" style="margin-left: 10%;margin-top: 50px"> OS</p>
         </div>
+   
 </body>
-
-
 </html>
