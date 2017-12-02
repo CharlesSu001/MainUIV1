@@ -11,7 +11,7 @@
 			"file": "WebApplication1/Views/MainUI/TeacherUI1.cshtml",
 			"settings":
 			{
-				"buffer_size": 1593,
+				"buffer_size": 1419,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
@@ -100,15 +100,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1593,
+						"buffer_size": 1419,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								55,
-								55
+								0,
+								0
 							]
 						],
 						"settings":

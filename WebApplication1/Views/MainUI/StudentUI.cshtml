@@ -11,6 +11,9 @@
     <link href="~/Content/StudentUI.css"rel="stylesheet"type="text/css" />
     <!-- Bootstrap -->
     <link href="~/Content/bootstrap.css"rel="stylesheet" />
+    <script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/studentinfo.js"></script> 
 </head>
 
 <body>
@@ -18,25 +21,25 @@
         <!-- 背景图的div -->
         <img style="position:absolute;margin-left: 5%;margin-top: 9%" src="~/Content/themes/portrait.png" width=28% height=50% />
         <img src="~/Content/themes/background.jpg" width=100% height=100% />
-        <div class="FONT4" style="position:absolute; z-index:2; top:15px">姓名：韦小宝</div>
-        <div class="FONT4" style="position:absolute; z-index:2; top:100px">学号：243201522xxxxx</div>
+        <div class="FONT4" style="position:absolute; z-index:2; top:15px">姓名：<span id="username"></span></div>
+        <div class="FONT4" style="position:absolute; z-index:2; top:100px">学号：<span id="stuid"></span></div>
     </div>
 
     <div class="box3">
-        <p class="FONT1" style="margin-left: 10%;margin-top: 50px"> J2EE</p>
-        <p class="FONT5" style="margin-left: 60%;margin-top: 11%;"> 老师：邱明</p>
+        <p class="FONT1" style="margin-left: 10%;margin-top: 50px"> <span id="course1"></span></p>
+        <p class="FONT5" style="margin-left: 60%;margin-top: 11%;"> 老师:<span id="teacher1"></span></p>
     </div>
     <div class="box3">
-        <p class="FONT1" style="margin-left: 10%;margin-top: 50px"> OOAD</p>
-        <p class="FONT5" style="margin-left: 60%;margin-top: 11%;"> 老师：邱明</p>
+        <p class="FONT1" style="margin-left: 10%;margin-top: 50px"><span id="course2"></span></p>
+        <p class="FONT5" style="margin-left: 60%;margin-top: 11%;"> 老师:<span id="teacher2"></span></p>
     </div>
     <div class="box3">
-        <p class="FONT1" style="margin-left: 10%;margin-top: 50px"> Java</p>
-        <p class="FONT5" style="margin-left: 60%;margin-top: 11%;"> 老师：王美红</p>
+        <p class="FONT1" style="margin-left: 10%;margin-top: 50px"><span id="course3"></span></p>
+        <p class="FONT5" style="margin-left: 60%;margin-top: 11%;">老师:<span id="teacher3"></span></p>
     </div>
     <div class="box3">
-        <p class="FONT1" style="margin-left: 10%;margin-top: 50px"> OS</p>
-        <p class="FONT5" style="margin-left: 60%;margin-top: 11%;"> 老师：吴清强</p>
+        <p class="FONT1" style="margin-left: 10%;margin-top: 50px"><span id="course4"></span></p>
+        <p class="FONT5" style="margin-left: 60%;margin-top: 11%;"> 老师:<span id="teacher4"></span></p>
     </div>
 </body>
 
